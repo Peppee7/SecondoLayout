@@ -1,5 +1,8 @@
 .button a   {
+    margin-top: 35px;
+    margin-bottom: 119px;
     background-color: #240202;
+    border: 2px solid #0039BA;
     color: #FFFFFF;
     text-decoration: none;
     line-height: 50px;
@@ -7,5 +10,6 @@
     font-style: normal;
     font-family: 'Merriweather';
     padding: 14px 33px 14px 33px;
+    width: 100%;
 
 }

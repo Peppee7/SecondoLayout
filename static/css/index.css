@@ -3,7 +3,18 @@
 @import "text.css";
 @import "button.css";
 @import "list.css";
+@import "copyright.css";
 
 body {
     background-color: #F5F5F5;
+}
+
+.row1 {
+    background-color: #CEFBFF;
+    border: 1px solid #707070;
+}
+
+.row2 {
+    background-color: #ECCEFF;
+    border: 1px solid #707070;
 }

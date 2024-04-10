@@ -1,5 +1,7 @@
-.list li {
-    margin-top: 237px;
+.list ol {
+    margin-top: 223px;
+    list-style: decimal-leading-zero;
+    list-style-position: inside;
     font-family: 'Merriweather';
     font-style: normal;
     font-size: 70px;
@@ -9,7 +11,7 @@
 
 .list p {
     margin-top: 15px;
-    margin-bottom: 135px;
+    margin-bottom: 77px;
     font-family: 'Merriweather';
     font-style: normal;
     font-size: 22px;
@@ -22,10 +24,11 @@
     font-style: normal;
     font-size: 22px;
     line-height: 34px;
-    color: red;
+    color: #FF0000;
 }
 
 .list hr {
     margin-top: 8px;
+    opacity: 90;
     border: 2px solid #707070;
 }
