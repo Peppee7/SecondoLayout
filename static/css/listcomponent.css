@@ -1,5 +1,6 @@
-.list ol {
-    margin-top: 223px;
+.listcomponent ol {
+    margin-top: 104px;
+    margin-bottom: 8px;
     list-style: decimal-leading-zero;
     list-style-position: inside;
     font-family: 'Merriweather';
@@ -9,9 +10,9 @@
     color: #707070;
 }
 
-.list p {
+.listcomponent p {
     margin-top: 15px;
-    margin-bottom: 77px;
+    margin-bottom: 53px;
     font-family: 'Merriweather';
     font-style: normal;
     font-size: 22px;
@@ -19,7 +20,7 @@
     color: #707070;
 }
 
-.list a {
+.listcomponent a {
     font-family: 'Merriweather';
     font-style: normal;
     font-size: 22px;
@@ -27,8 +28,8 @@
     color: #FF0000;
 }
 
-.list hr {
-    margin-top: 8px;
+.listcomponent hr {
+    margin-bottom: 15px;
     opacity: 90;
     border: 2px solid #707070;
 }

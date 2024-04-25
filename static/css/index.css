@@ -2,19 +2,6 @@
 @import "title.css";
 @import "text.css";
 @import "button.css";
-@import "list.css";
+@import "listcomponent.css";
 @import "copyright.css";
-
-body {
-    background-color: #F5F5F5;
-}
-
-.hero {
-    background-color: #CEFBFF;
-    border: 1px solid #707070;
-}
-
-.hero2 {
-    background-color: #ECCEFF;
-    border: 1px solid #707070;
-}
+@import "hero.css";
