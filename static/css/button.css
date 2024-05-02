@@ -2,29 +2,28 @@
 .button a:visited,
 .button a:hover,
 .button a:active {
+    display: block;
+    unicode-bidi: isolate;
+    font-size: 35px;
+    background-color: #240202;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 50px;
     padding: 14px 33px;
     margin-top: 35px;
     margin-bottom: 119px;
     position: relative;
-    background-color: #240202;
-    unicode-bidi: isolate;
-    color: #FFFFFF;
-    line-height: 50px;
-    font-size: 35px;
-    font-style: normal;
-    font-family: "Merriweather", serif;
-    text-decoration: none;
 }
-
+    
 .button a::after {
     content: "";
     position: absolute;
     width: 28px;
     height: 34px;
     display: block;
-    background-image: url(../img/arrow.png);
+    background-image: url(../img/arrow.svg);
     background-size: 28px 34px;
     right: 31px;
     top: 50%;
     transform: translateY(-50%)
-    }
+}
