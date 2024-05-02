@@ -1,10 +1,8 @@
-.text p {
-    margin-top: 35px;
-    margin-bottom: 35px;
-    font-family: 'Courier New', Courier, monospace;
+.text {
+    font-family: 'Courier New', serif;
     font-weight: lighter;
+    text-align: top;
     font-size: 35px;
-    line-height: 50px;
     width: 100%;
     color: #707070;
 }

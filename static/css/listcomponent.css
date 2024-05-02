@@ -1,22 +1,21 @@
 .listcomponent ol {
-    margin-top: 104px;
-    margin-bottom: 8px;
-    list-style: decimal-leading-zero;
-    list-style-position: inside;
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-size: 70px;
-    line-height: 88px;
-    color: #707070;
+    margin: 0;
+    padding: 0;
+    counter-reset: listItem;
+    list-style-type: none;
 }
 
 .listcomponent p {
-    margin-top: 15px;
+    display: block;
+    margin: 0;
+    padding: 0;
     margin-bottom: 53px;
+    padding-top: 16px;
     font-family: 'Merriweather';
     font-style: normal;
     font-size: 22px;
     line-height: 34px;
+    border-top: solid 2px #707070;
     color: #707070;
 }
 
@@ -28,8 +27,12 @@
     color: #FF0000;
 }
 
-.listcomponent hr {
-    margin-bottom: 15px;
-    opacity: 90;
-    border: 2px solid #707070;
+.listcomponent li::before {
+    counter-increment: listItem;
+    content: "0" counter(listItem) ".";
+    font-size: 70px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    color: #707070;
+    display: block;
 }

@@ -1,9 +1,8 @@
 .title h2 {
     margin-top: 130px;
     margin-bottom: 35px;
-    font-weight: mixed;
     font-size: 90px;
-    line-height: auto;
+    line-height: 1;
     width: 100%;
     color: #707070;
 }

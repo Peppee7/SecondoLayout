@@ -1,9 +1,11 @@
-.copyright p {
+.copyright {
     padding-top: 80px;
-    padding-bottom: 10px;
+    padding-bottom: 200px;
+}
+
+.copyright p {
     font-family: 'Merriweather';
     line-height: 34px;
     font-size: 22px;
-    width: 100%;
     color: #707070;
 }
